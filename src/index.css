@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import "tailwindcss";
+
+
+/*  */
+/* @theme {
+  --color-grape: #32a
+}
+
+.coin {
+  @apply text-grape bg-amber-100 rounded-lg
+} */
+@theme {
+  --font-fira: "Fira Code", sans;
+  --color-primary: #101010;
+  --color-primary-2: #161318;
+  --color-2ndry-1: #e5e7eb;
+  --color-2ndry-2: #abb2bf;
+  --color-hilit-1: #be0eec;
+}
+
+.firstLetterW::first-letter {
+  @apply text-2ndry-1
+}
+
+.skillLogo {
+  @apply border-2ndry-2 bg-primary rounded-2xl border-2 p-3 border-8 border-2ndry-2
+}
